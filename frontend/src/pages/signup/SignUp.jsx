@@ -76,7 +76,9 @@ const SignUp = () => {
           selectedGender={inputs.gender}/>
 
           <div>
-            <button className='btn btn-block btn-sm mt-2 bg-green-500'>Signup</button>
+            <button className='btn btn-block btn-sm mt-2 bg-green-500' disabled={loading}>
+            {loading ? <span className='loading loading-spinner'></span> : "Sign Up"}
+            </button>
           </div>
 
           <Link to='/login' className='text-sm text-black hover:underline hover:text-blue-600 mt-2 inline-block'>
