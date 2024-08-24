@@ -7,7 +7,7 @@ Live app is here: https://concordia-sl4f.onrender.com/
 3. Online status of users.
 4. Search a conversation.
 5. iOS notification sound.
-6. Avatar and Emoji for each user.<br/>
+6. Avatar and Emoji for each user.
 <br/>The .env contains:
 ```
 PORT
