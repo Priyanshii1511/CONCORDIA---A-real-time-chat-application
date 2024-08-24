@@ -2,7 +2,6 @@ Concordia is a full stack real time chat application made using React, Node.js, 
 Live app is here: https://concordia-sl4f.onrender.com/
 <br/> 
 ## Features:
-<br/>
 1. Login/Signup along with JWT authentication.
 2. Real time communication with Socket.io.
 3. Online status of users.
